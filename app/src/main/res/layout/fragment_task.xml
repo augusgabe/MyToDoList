@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundWhite"
+    tools:context=".ui.task.TaskFragment">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+               >
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalSV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/today_task"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/category_bg"
+                            android:text="今日"
+                            android:textSize="16sp"
+                            />
+
+                        <Button
+                            android:id="@+id/all_task"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/category_bg"
+                            android:text="全部"
+                            android:textSize="16sp"
+                            />
+
+                        <Button
+                            android:id="@+id/study_task"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/category_bg"
+                            android:text="学习"
+                            android:textSize="16sp"
+                            />
+
+                        <Button
+                            android:id="@+id/life_task"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/category_bg"
+                            android:text="生活"
+                            android:textSize="16sp"
+                            />
+
+                        <Button
+                            android:id="@+id/work_task"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/category_bg"
+                            android:text="工作"
+                            android:textSize="16sp"
+                            />
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    app:cardCornerRadius="12dp">
+
+                    <RelativeLayout
+                        android:id="@+id/taskTodo_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="待完成"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@color/cold_gray"
+                            android:textSize="16sp"/>
+
+                        <TextView
+                            android:id="@+id/taskWaitNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="0"
+                            android:textColor="@color/cold_gray"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/arrowImage"
+                            android:layout_width="18dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:src="@drawable/arrow_up"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/taskTodo_RecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/arrowImage"
+                             />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="12dp">
+
+                    <RelativeLayout
+                        android:id="@+id/taskTodo2_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已完成&amp;已放弃"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginBottom="15dp"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@color/cold_gray"
+                            android:textSize="16sp"/>
+
+                        <TextView
+                            android:id="@+id/taskDoneNum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="2"
+                            android:textColor="@color/cold_gray"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/arrowImage2"
+                            android:layout_width="18dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="15dp"
+                            android:src="@drawable/arrow_up" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/taskTodo2_RecyclerView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/arrowImage2" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <!--  横向滚动类别栏-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:animateOnClick="true"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:backgroundTint="@color/backgroundWhite"
+            android:id="@id/handle"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:id="@id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/slidingdrawer"
+           >
+
+            <include
+                android:id="@+id/drawer_item"
+                layout="@layout/drawer_item"/>
+
+        </LinearLayout>
+
+    </SlidingDrawer>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/backgroundBlue"
+        android:scaleType="fitXY"
+        android:src="@drawable/plus"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        app:maxImageSize="30dp"
+        app:pressedTranslationZ="12dp" />
+
+</RelativeLayout>

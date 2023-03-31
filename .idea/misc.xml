@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/bar_main.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/barback.xml" value="0.1595" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/category_bg.xml" value="0.1595" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/deletebtn.xml" value="0.1745" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/floatbutton.xml" value="0.1635" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/seekbar.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/seekbar2.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/seekbar_thumb.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/seekbar_thumb2.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/sendto.xml" value="0.1635" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/slidingdrawer.xml" value="0.1635" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/spinner_style.xml" value="0.1595" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/switch_ios_thumb.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/task_button.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/task_button_selector.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/task_image1.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/task_image2.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/taskbutton.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/taskbutton_after.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable-xxhdpi/taskbutton_before.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/colorbar.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/ic_launcher_background.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/ic_menu_camera.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/drawable/side_nav_bar.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/app_bar_main.xml" value="0.264" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/category_set.xml" value="0.22488242838820008" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/content_detail.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/content_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/drawer_item.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_failure.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_focus.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_gallery.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_home.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_praise.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_reflow.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_slideshow.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/fragment_task.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/nav_header_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/priority_set.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/shame_item.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/table_item.xml" value="0.22488242838820008" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/task_detail.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/layout/task_item.xml" value="0.4" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/menu/activity_main_drawer.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/menu/bottom_navigation.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/menu/main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/menu/navigation_drawer.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/menu/overflow.xml" value="0.4109375" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.146" />
+        <entry key="..\:/Code/Androi project/MyToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

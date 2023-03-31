@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_task">
+
+    <fragment
+        android:id="@+id/nav_focus"
+        android:name="com.example.mytodolist.ui.focus.FocusFragment"
+        tools:layout="@layout/fragment_focus" />
+
+    <fragment
+        android:id="@+id/nav_task"
+        android:name="com.example.mytodolist.ui.task.TaskFragment"
+        tools:layout="@layout/fragment_task" />
+
+    <fragment
+        android:id="@+id/nav_praise"
+        android:name="com.example.mytodolist.ui.praise.PraiseFragment"
+        tools:layout="@layout/fragment_praise" />
+
+
+</navigation>

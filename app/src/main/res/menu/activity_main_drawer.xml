@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/task"
+            android:title="@string/menu_task" />
+        <item
+            android:id="@+id/nav_focus"
+            android:icon="@drawable/focus"
+            android:title="@string/menu_focus" />
+        <item
+            android:id="@+id/nav_praise"
+            android:icon="@drawable/praise"
+            android:title="@string/menu_praise" />
+    </group>
+</menu>
